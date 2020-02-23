@@ -85,7 +85,7 @@ do
     if [ $(cat "/sys/class/gpio/gpio$ROW1/value" | grep 1) ]; then
         # Button A
     fi
-    if [ $(cat "/sys/class/gpio/gpio$ROW2/value" | grep 1) ]; then echo "Button B";
+    if [ $(cat "/sys/class/gpio/gpio$ROW2/value" | grep 1) ]; then
         # Button B
     fi
     if [ $(cat "/sys/class/gpio/gpio$ROW3/value" | grep 1) ]; then
